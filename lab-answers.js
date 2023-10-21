@@ -28,24 +28,33 @@
 
 //Wild Wild Life///
             //Name    //Animal //Age //Home town
-const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
-const sharky = ["Sharky", "shark", 20, "Left Coast"]
-const plantee = ["Plantee", "plant",  5000 , "Mordor"]
-const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
-const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
+// const wolfy = ["Wolfy", "wolf", 16, "Yukon Territory"]
+// const sharky = ["Sharky", "shark", 20, "Left Coast"]
+// const plantee = ["Plantee", "plant",  5000 , "Mordor"]
+// const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+// const dart = ["D'Art" , "Demogorgan Dog", 2, "Upside Down"]
 
-//Part 1//
-plantee[2]+= 1;console.log(plantee);
+// //Part 1//
+// plantee[2]+= 1;console.log(plantee);
 
-//Part 2//
-wolfy[3]= 'Gotham City';console.log(wolfy);
+// //Part 2//
+// wolfy[3]= 'Gotham City';console.log(wolfy);
 
-//Part 3 //
-dart.push('Hawkins');console.log(dart);
+// //Part 3 //
+// dart.push('Hawkins');console.log(dart);
+// //or
+// // dart[4]='Hawkins';console.log(dart);
+
+// //Part 4//
+// wolfy[0]='Gameboy';console.log(wolfy);
 //or
-// dart[4]='Hawkins';console.log(dart);
+// wolfy.splice(0,1,'Gameboy');console.log(wolfy);
 
-//Part 4//
-wolfy[0]='Gameboy';console.log(wolfy);
-//or
-wolfy.splice(0,0,'gameboy');console.log(wolfy);
+////Yell at the Ninja Turtles///
+
+const turtles =['Donatello','Leonardo','Raphael','Michaelangelo'];
+
+for(const ninja of turtles ){
+    console.log(ninja.toUpperCase());
+}
+
