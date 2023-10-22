@@ -100,14 +100,28 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 //P9//
 
- favMovies.forEach((favMovies,index)=>{
-     console.log(index, favMovies);
+//  favMovies.forEach((favMovies,index)=>{
+//      console.log(index, favMovies);
     
- });
+//  });
 
-const newFavs= favMovies.slice(0,9);
-console.log(newFavs);
+// const newFavs= favMovies.slice(0,9);
+// console.log(newFavs);
 
-const fast= newFavs.indexOf('Fast and Furious');
-console.log(fast);
+// const fast= newFavs.indexOf('Fast and Furious');
+// console.log(fast);
 
+//Where is Waldo //
+
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+                      ["Lucinda", "Jacc", "Neff", "Snoop"],
+                      ["Petunia", ["Baked Goods", "Waldo"]]];
+
+                    const newWhereIsWaldo = whereIsWaldo.slice(0, 1).concat(whereIsWaldo.slice(2))
+                    //   console.log(newWhereIsWaldo)
+                    newWhereIsWaldo[1][2]='No One';
+                    console.log (newWhereIsWaldo);
+                   
+
+                       const waldo= newWhereIsWaldo[2][1][1];
+                       console.log(waldo);
