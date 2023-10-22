@@ -52,9 +52,62 @@
 
 ////Yell at the Ninja Turtles///
 
-const turtles =['Donatello','Leonardo','Raphael','Michaelangelo'];
+// const turtles =['Donatello','Leonardo','Raphael','Michaelangelo'];
 
-for(const ninja of turtles ){
-    console.log(ninja.toUpperCase());
-}
+// for(const ninja of turtles ){
+//     console.log(ninja.toUpperCase());
+// }
+
+//Methods Revisited //
+
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 
+'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 
+'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+ 
+// const index = favMovies.indexOf('Titanic');
+// console.log(index);
+
+//P1//
+// const orgin= favMovies.sort();
+// console.log(orgin);
+
+//P3//
+
+// const poppy= favMovies.pop();
+// console.log(poppy);
+
+//P4//
+// const guard= favMovies.push('Guardians of the Galaxy');
+// console.log(favMovies);
+
+//P5//
+// favMovies.reverse()
+// console.log(favMovies);
+
+//P6&7//
+// favMovies.shift();
+//  console.log(favMovies);
+
+// favMovies.unshift();
+// console.log(favMovies);
+
+//P8//
+// const django =favMovies.indexOf('Django Unchained');
+// console.log(django);
+
+// const avatar= favMovies.splice(3,1, 'Avatar' );
+// console.log(favMovies);
+
+//P9//
+
+ favMovies.forEach((favMovies,index)=>{
+     console.log(index, favMovies);
+    
+ });
+
+const newFavs= favMovies.slice(0,9);
+console.log(newFavs);
+
+const fast= newFavs.indexOf('Fast and Furious');
+console.log(fast);
 
