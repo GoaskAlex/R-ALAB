@@ -113,15 +113,31 @@ const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle'
 
 //Where is Waldo //
 
-const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
-                      ["Lucinda", "Jacc", "Neff", "Snoop"],
-                      ["Petunia", ["Baked Goods", "Waldo"]]];
+// const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+//                       ["Lucinda", "Jacc", "Neff", "Snoop"],
+//                       ["Petunia", ["Baked Goods", "Waldo"]]];
 
-                    const newWhereIsWaldo = whereIsWaldo.slice(0, 1).concat(whereIsWaldo.slice(2))
-                    //   console.log(newWhereIsWaldo)
-                    newWhereIsWaldo[1][2]='No One';
-                    console.log (newWhereIsWaldo);
+//                     const newWhereIsWaldo = whereIsWaldo.slice(0, 1).concat(whereIsWaldo.slice(2))
+//                     //   console.log(newWhereIsWaldo)
+//                     newWhereIsWaldo[1][2]='No One';
+//                     console.log (newWhereIsWaldo);
                    
 
-                       const waldo= newWhereIsWaldo[2][1][1];
-                       console.log(waldo);
+//                        const waldo= newWhereIsWaldo[2][1][1];
+//                        console.log(waldo);
+
+//ExCitied Kitten//
+const s='S'
+let repS=''
+
+const phrase=["...human... why you taking pictures of me...?","...the catnip made me do it...","...why does the red dot always get away...?"]
+let catTalk =""
+
+for( let i = 0 ; i < 20; i++){
+    repS+=s;
+    if(i % 2 === 0 ){
+       catTalk=phrase[Math.floor(Math.random()*phrase.length)];
+    }
+    
+}
+console.log('Love me, pet me! '+'H'+repS+ catTalk);
